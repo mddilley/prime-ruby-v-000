@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
-  return number if (1..number).any? {|i| i % number == 0}
+  return number if (2..number-1).any? {|i| number % i ==0}
 end
